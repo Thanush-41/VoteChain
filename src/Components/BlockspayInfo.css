@@ -1,0 +1,67 @@
+/* BlockspayInfo.css */
+
+.blockspay-info-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 3rem;
+}
+
+.blockspay-info-title {
+    text-align: center;
+}
+
+.blockspay-info-content {
+    margin-bottom: 20px;
+}
+
+.blockspay-info-image-holder {
+    text-align: center;
+}
+
+.blockspay-info-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blockspay-info-group {
+    display: flex; /* Display children in a row */
+    overflow-x: auto; /* Add horizontal scrollbar when content overflows */
+    white-space: nowrap; /* Prevent items from wrapping */
+}
+
+/* Adjustments for each card */
+.blockspay-info-container:nth-child(odd) {
+    background-color: #f9f9f9; /* Light background for odd cards */
+}
+
+.blockspay-info-container:nth-child(even) {
+    background-color: #f0f0f0; /* Lighter background for even cards */
+}
+
+.blockspay-info-container {
+    border: 1px solid #ccc; /* Add border for each card */
+    margin: 10px; /* Add some margin between cards */
+    padding: 10px; /* Add padding to the cards */
+    min-width: 300px; /* Set minimum width for each card */
+    flex: 0 0 auto; /* Allow cards to shrink if necessary */
+}
+
+.blockspay-info-container .blockspay-info-title {
+    margin-top: 0;
+}
+
+.blockspay-info-content {
+    margin-bottom: 10px;
+}
+
+.blockspay-info-image {
+    max-width: 100%;
+    max-height: min-content;
+    width:7rem; /* Ensure images don't exceed container width */
+    height: 12rem;
+}

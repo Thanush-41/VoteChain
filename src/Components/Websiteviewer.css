@@ -1,0 +1,23 @@
+/* App.css */
+.website-viewer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .website-viewer-title {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: -13rem;
+    color: #2a9df4;
+  }
+  
+  .website-viewer-iframe {
+    border: none;
+    width: 80%;
+    height: 500px;
+    margin-left: 9rem;
+
+  }
+  
